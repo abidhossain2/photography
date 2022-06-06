@@ -1,0 +1,43 @@
+.service-section{
+    background-color: black;
+}
+
+.service-section h2{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 37px;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    justify-items: center;
+    margin-top: 62px;
+    margin-bottom: 30px;
+}
+
+
+
+@media (max-width:992px) {
+    .services{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width:768px) {
+    .services{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (max-width:576px) {
+    .services{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
