@@ -1,6 +1,6 @@
 # Splendid Shot
 
-Live site link 
+Live site link  https://splendid-shot.web.app/
 
 # Projeact Details
 * This website is firebase authentication based. I use email, password and google authentication.

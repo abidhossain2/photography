@@ -1,13 +1,13 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import AboutMe from './components/AboutMe/AboutMe'
-import CheckOut from './components/CheckOut/CheckOut';
-import Home from './components/Home/Home';
-import Register from './components/Register/Register';
-import RequiredAuth from './components/RequiredAuth/RequiredAuth';
-import NotFound from './components/NotFound/NotFound';
-import Signin from './components/Login/Signin';
-import Blog from './components/Blog/Blog';
+import AboutMe from './Components/AboutMe/AboutMe'
+import CheckOut from './Components/CheckOut/CheckOut';
+import Home from './Components/Home/Home';
+import Register from './Components/Register/Register';
+import RequiredAuth from './Components/RequiredAuth/RequiredAuth';
+import NotFound from './Components/NotFound/NotFound';
+import Signin from './Components/Login/Signin';
+import Blog from './Components/Blog/Blog';
 
 
 function App() {

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Animal Photoshoot",
+        "img": "https://images.unsplash.com/photo-1500479694472-551d1fb6258d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fGZveHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "detail": "Editing is an essential part of any photography style. Even if you do not like Photoshop, you can still use it to enhance your photos even a little.",
+        "price": "$8 per photo"
+    },
+    {
+        "id": 2,
+        "name": "Nature Photoshoot",
+        "img": "https://images.unsplash.com/photo-1499002238440-d264edd596ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjZ8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "detail": "photography taken outdoors and devoted to displaying natural elements such as landscapes, wildlife, plants and close-ups of natural scenes and textures.",
+        "price": "$6 per photo"
+    },
+    {
+        "id": 3,
+        "name": "Travel Photoshoot",
+        "img": "https://images.unsplash.com/photo-1503457574462-bd27054394c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fHRyYXZlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "detail": "A great travel picture like any great picture tells a story. It connects your audience to the scene in your composition. It engages a viewer's imagination",
+        "price": "$5 per photo"
+    }
+]
