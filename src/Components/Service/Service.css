@@ -1,0 +1,63 @@
+.service{
+    width: 329px;
+    border: 1px solid #272323;
+    height: 460px;
+    text-align: center;
+    border-radius: 17px;
+    box-shadow: 0px  0px 8px 1px #272323
+}
+.service:hover{
+    box-shadow: 0px 0px 10px 2px #272323;
+    cursor: pointer;
+}
+.service img{
+    width: 310px;
+    padding: 17px;
+    border-radius: 29px;
+}
+
+.service .name{
+    color: white;
+    font-size: 20px;
+}
+
+.service .detail{
+    color: #367c7c;
+}
+
+.service .price{
+    color: white;
+}
+
+.service button{
+    background: transparent;
+    color: floralwhite;
+    border: 1px solid grey;
+    padding: 4px 15px;
+    border-radius: 5px;
+}
+.service button:hover{
+    background-color: floralwhite;
+    color: black;
+}
+
+@media (max-width:1200px) {
+        .service{
+            width: 304px;
+            border: 1px solid #272323;
+            height: 460px;
+            text-align: center;
+            border-radius: 17px;
+            box-shadow: 0px  0px 8px 1px #272323
+        }
+}
+@media (max-width:576px) {
+        .service{
+            width: 304px;
+            border: 1px solid #272323;
+            height: 460px;
+            text-align: center;
+            border-radius: 17px;
+            box-shadow: 0px  0px 8px 1px #272323
+        }
+}
