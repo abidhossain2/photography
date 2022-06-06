@@ -1,0 +1,95 @@
+.register{
+    background: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container{
+    width: 500px;
+    border: 1px solid rgb(71, 67, 67);
+    height: 550px;
+    padding: 20px;
+}
+
+.register-container .name-register, .email-register, .password-register{
+    width: 350px;
+    display: block;
+    margin: 17px auto;
+    background: transparent;
+    padding: 6px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #443a3a;
+    outline: none;
+    color: white;
+}
+
+.register-container h2{
+    text-align: center;
+    margin-bottom: 29px;
+    color: white;
+}
+
+.submit-register{
+    display: block;
+    margin: auto;
+    background: transparent;
+    color: white;
+    border: none;
+    padding: 5px 21px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+}
+
+.submit-register:hover{
+    box-shadow: 0px 0px 4px 1px #443a3a;
+}
+.exist{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.signin{
+    text-decoration: none;
+    color: #bc81f2;;
+}
+
+.google-signin {
+    color: white;
+    border: 1px solid gray;
+    width: 294px;
+    display: block;
+    margin: auto;
+    padding: 9px 2px;
+    border-radius: 10px;
+    background: #9191db;
+    margin-top: 47px;
+}
+
+.signin-txt {
+    margin-left: 55px;
+    font-size: 16px;
+    color: black;
+}
+
+.google-icon {
+    color: black;
+    font-size: 25px;
+}
+
+@media (max-width:576px) {
+    .register-container{
+        width: 288px;
+    }
+    
+    .register-container .name-register, .email-register, .password-register{
+        width: 234px;
+    }
+    .google-signin {
+        width: 244px;
+    }
+}
