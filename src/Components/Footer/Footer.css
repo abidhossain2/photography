@@ -1,0 +1,125 @@
+.footer{
+    background: #080808;
+}
+.footer-info{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    align-items: center;
+    height: 37vh;
+}
+.footer-info div{
+    width: 300px;
+    height: 160px;
+}
+
+.footer-info .phone h6, .address h6, .time h6, .subscribe h6{
+    color: gray;
+    font-size: 18px;
+    border-bottom: 1px solid gray;
+}
+
+.footer-info .phone p, .address p, .time p{
+    color: white;
+}
+
+.footer-info .subscribe input{
+    background: transparent;
+    border: 1px solid gray;
+    width: 233px;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    outline: none;
+    color: white;
+}
+
+.footer-info .subscribe button {
+    background: red;
+    border: none;
+    padding: 5px 30px;
+    color: white;
+    border-radius: 6px;
+    display: block;
+    margin: auto;
+}
+
+.footer .social{
+    height: 40px;
+    width: 390px;
+    margin: auto;
+}
+
+.social-icon .social-link{
+    color: white;
+    font-size: 32px;
+    margin: 0px 10px;
+}
+.social-icon{
+    width: 159px;
+    margin: auto;
+}
+
+.footer .copy-right{
+    text-align: center;
+    color: gray;
+    background-color: #080808;
+}
+@media (max-width:1200px) {
+
+        .footer-info{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            padding: 31px;
+        }
+        .footer .social{
+            height: 40px;
+            width: 390px;
+            margin: 79px auto;
+        }
+    }
+    
+        @media (max-width:992px) {
+
+            .footer-info{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                padding: 31px;
+            }
+            .footer .social{
+                height: 40px;
+                width: 390px;
+                margin: 79px auto;
+            }
+        }
+        @media (max-width:768px) {
+
+            .footer-info{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                padding: 31px;
+            }
+            .footer .social{
+                height: 40px;
+                width: 390px;
+                margin: 421px auto 0px;
+            }
+        }
+        @media (max-width:576px) {
+
+            .footer-info{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                padding: 31px;
+            }
+            .footer .social{
+                height: 40px;
+                width: 390px;
+                margin: 437px auto 0px;
+            }
+            .footer-info div{
+                width: 242px;
+                height: 160px;
+            }
+            
+        }
