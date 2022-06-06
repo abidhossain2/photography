@@ -1,0 +1,74 @@
+.main-section{
+    background-color: black;
+}
+.nav-bar{
+    height: 80px;
+    background-color: black;
+}
+
+.nav-bar .f-letter, .s-letter{
+    font-size: 30px;
+    color: #16a512;
+    font-weight: bold;
+}
+
+.banner{
+    background-image: url('https://images.unsplash.com/photo-1606322686713-60863ef4dc6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjA3fHx3aWxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    height: 89.3vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 90px;
+}
+@media (max-width: 576px) {
+    .banner h1{
+        font-size: 59px;
+    }
+}
+.link-item{
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.link-item:hover{
+    color: #16a512;
+}
+.signin-btn:hover{
+    color: blueviolet;
+}
+.signin-btn{
+    margin-right: 30px;
+    text-decoration: none;
+    padding: 5px 16px;
+    color: white;
+    border-radius: 7px;
+    background: #2d1142;
+}
+.logout{
+    margin-right: 30px;
+    text-decoration: none;
+    padding: 4px 7px;
+    color: white;
+    border-radius: 7px;
+    background: #2d1142;
+    border: none;
+}
+
+@media (max-width:992px) {
+    .signin-btn{
+        margin-right: 30px;
+        text-decoration: none;
+        padding: 5px 16px;
+        color: white;
+        border-radius: 7px;
+        background: #2d1142;
+        width: 75px;
+    }
+}
