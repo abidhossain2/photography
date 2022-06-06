@@ -1,0 +1,70 @@
+.gallery{
+    padding: 16px;
+    background-color: black;
+}
+
+.gallery .gallery-txt{
+    font-family: 'Dancing Script', cursive;
+    font-size: 37px;
+    text-align: center;
+    color: white;
+}
+
+.gallery .gallery-header{
+    margin-bottom: 43px;
+}
+
+.slider img{
+    width: 500px;
+    height: 333px;
+}
+
+@media (max-width:1200px) {
+    .gallery{
+        padding: 16px;
+        background-color: black;
+        margin-top: 23px;
+    }
+}
+
+@media (max-width: 992px) {
+    .gallery{
+        padding: 16px;
+        background-color: black;
+        margin-top: 23px;
+    }
+    
+    .gallery .gallery-txt{
+        font-family: 'Dancing Script', cursive;
+        font-size: 37px;
+        text-align: center;
+        color: white;
+    }
+    
+    .gallery .gallery-header{
+        margin-bottom: 43px;
+    }
+    
+    .slider img{
+        width: 500px;
+        height: 333px;
+    }
+}
+@media (max-width:768px) {
+    .gallery{
+        padding: 16px;
+        background-color: black;
+        margin-top: 23px;
+    }
+}
+@media (max-width:576px) {
+    .gallery{
+        padding: 16px;
+        background-color: black;
+        margin-top: 23px;
+    }
+    .slider img{
+        width: 296px;
+        height: 281px;
+    }
+}
