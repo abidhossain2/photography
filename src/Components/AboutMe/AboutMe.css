@@ -1,0 +1,23 @@
+.aboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.goal {
+    width: 600px;
+    padding: 35px;
+    border: 1px solid gray;
+}
+
+.goal-container {
+    position: relative;
+}
+
+.goal-header {
+    text-align: center;
+    position: absolute;
+    left: 46%;
+    top: 19%;
+}

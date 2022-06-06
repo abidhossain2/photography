@@ -1,0 +1,11 @@
+.slider img {
+    display: block;
+    margin: auto;
+}
+
+@media (max-width:576px) {
+    .slider img {
+        display: block;
+        margin: auto;
+    }
+}
